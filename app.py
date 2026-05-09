@@ -424,7 +424,7 @@ hr { border-color: var(--border) !important; }
 
 
 # ── PATHS ────────────────────────────────────────────────────
-BASE_DIR = r"C:\Users\mohaf\Downloads\Final Section Intelligent\DataSets"
+BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "DataSets")
 PROC_DIR = os.path.join(BASE_DIR, "processed")
 
 TMDB_API_KEY = "8265bd1679663a7ea12ac168da84d2e8"  # public demo key — replace if needed
